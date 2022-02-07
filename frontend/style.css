@@ -1,0 +1,59 @@
+img {
+  display: none;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+
+
+#gameScreen {
+  display: none;
+}
+
+#startScreen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#lobby {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#startGame {
+  display: none;
+}
+
+#joinedPlayers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 5%;
+  margin-left: 5%;
+  flex-wrap: wrap;
+  width: 80%;
+}
